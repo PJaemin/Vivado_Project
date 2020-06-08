@@ -1,0 +1,2 @@
+add_s_19_19_20.vhd,vhdl,xil_defaultlib,../../../../HELPS_vf_pss_rev_11.srcs/sources_1/ip/add_s_19_19_20/sim/add_s_19_19_20.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

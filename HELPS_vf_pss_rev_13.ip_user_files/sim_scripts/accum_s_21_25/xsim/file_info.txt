@@ -1,0 +1,2 @@
+accum_s_21_25.vhd,vhdl,xil_defaultlib,../../../../HELPS_vf_pss_rev_11.srcs/sources_1/ip/accum_s_21_25/sim/accum_s_21_25.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

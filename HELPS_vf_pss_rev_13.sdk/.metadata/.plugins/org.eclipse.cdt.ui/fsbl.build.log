@@ -1,0 +1,6 @@
+18:56:34 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: Nothing to be done for 'all'.
+
+18:56:34 Build Finished (took 303ms)
+

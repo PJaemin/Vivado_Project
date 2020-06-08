@@ -1,0 +1,450 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "61440803"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "fpga_rx_0/ila_0",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "385B7A434CA854D0ACA9A13A8BB4B56A",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "fpga_rx_0/SPI_CS",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "fpga_rx_0/SPI_CK",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "fpga_rx_0/SPI_DW",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "fpga_rx_0/SPI_DR",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "fpga_rx_0/ADC_CLK",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 11,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "fpga_rx_0/ADC_I",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[11]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[10]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[9]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[8]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[7]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[6]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[5]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[4]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[3]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[2]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[1]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_I[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 6,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 11,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "fpga_rx_0/ADC_Q",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[11]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[10]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[9]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[8]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[7]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[6]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[5]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[4]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[3]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[2]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[1]"
+                                            },
+                                            {
+                                                "name": "fpga_rx_0/ADC_Q[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 7,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "fpga_rx_0/AFC_DAC_CS",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 8,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "fpga_rx_0/gpio_rf",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "fpga_rx_0/gpio_rf[4]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 9,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "fpga_rx_0/adc_clk_32mhz",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "fpga_rx_0/adc_clk_32mhz[5]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "VIO_V2",
+                        "name": "vio_0",
+                        "spec": "labtools_vio_v3",
+                        "ipName": "vio",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 1,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "3E84853640725514988EF94A9A327D34",
+                        "pins": [
+                            {
+                                "name": "probe_in0",
+                                "id": 10,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "DBG_LED_OBUF",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "DBG_LED_OBUF[3]"
+                                            },
+                                            {
+                                                "name": "DBG_LED_OBUF[2]"
+                                            },
+                                            {
+                                                "name": "DBG_LED_OBUF[1]"
+                                            },
+                                            {
+                                                "name": "DBG_LED_OBUF[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_out0",
+                                "id": 11,
+                                "type": "DATA",
+                                "direction": "OUT",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "md_vio",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "md_vio[3]"
+                                            },
+                                            {
+                                                "name": "md_vio[2]"
+                                            },
+                                            {
+                                                "name": "md_vio[1]"
+                                            },
+                                            {
+                                                "name": "md_vio[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_out1",
+                                "id": 12,
+                                "type": "DATA",
+                                "direction": "OUT",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "sel_adc_vio",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "sel_adc_vio[3]"
+                                            },
+                                            {
+                                                "name": "sel_adc_vio[2]"
+                                            },
+                                            {
+                                                "name": "sel_adc_vio[1]"
+                                            },
+                                            {
+                                                "name": "sel_adc_vio[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_out2",
+                                "id": 13,
+                                "type": "DATA",
+                                "direction": "OUT",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "afc_16b_vio",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "afc_16b_vio[15]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[14]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[13]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[12]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[11]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[10]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[9]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[8]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[7]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[6]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[5]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[4]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[3]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[2]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[1]"
+                                            },
+                                            {
+                                                "name": "afc_16b_vio[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

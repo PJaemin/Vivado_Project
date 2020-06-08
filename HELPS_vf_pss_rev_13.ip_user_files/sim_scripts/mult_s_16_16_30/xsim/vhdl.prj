@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../HELPS_vf_pss_rev_11.srcs/sources_1/ip/mult_s_16_16_30/sim/mult_s_16_16_30.vhd" \
+
+nosort
